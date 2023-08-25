@@ -38,8 +38,8 @@ function module.apply_to_config(config)
 				fg_color = "#007CF1",
 			},
 			new_tab_hover = {
-				bg_color = "#18131e",
-				fg_color = "#ff65fd",
+				bg_color = "#007CF1",
+				fg_color = "#E9E9ED",
 			},
 		},
 	}
