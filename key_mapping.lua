@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 local module = {}
 
 function module.apply_to_config(config)
-	config.leader = { key = "Space", mods = "", timeout_milliseconds = 1000 }
+	config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
 	config.keys = {
 		{
 			key = "k",
