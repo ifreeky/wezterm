@@ -5,21 +5,50 @@ function module.apply_to_config(config)
 	config.color_scheme = "tokyonight-day"
 	config.colors = {
 		selection_bg = "#D0AB52",
+		tab_bar = {
+
+			-- The color of the strip that goes along the top of the window
+			background = "#282828",
+
+			-- The active tab is the one that has focus in the window
+			active_tab = {
+				-- The color of the background area for the tab
+				bg_color = "#18131e",
+				-- The color of the text for the tab
+				fg_color = "#007CF1",
+
+				intensity = "Normal",
+				underline = "None",
+				italic = false,
+				strikethrough = false,
+			},
+
+			-- Inactive tabs are the tabs that do not have focus
+			inactive_tab = {
+				bg_color = "#A7AECE",
+				fg_color = "#007CF1",
+			},
+			inactive_tab_hover = {
+				bg_color = "#A7AECE",
+				fg_color = "#ff65fd",
+			},
+
+			new_tab = {
+				bg_color = "#E1E2E7",
+				fg_color = "#007CF1",
+			},
+			new_tab_hover = {
+				bg_color = "#18131e",
+				fg_color = "#ff65fd",
+			},
+		},
 	}
+	-- The active tab is the} one that has focus in the window
 	config.enable_tab_bar = true
 	config.window_frame = {
 		font = wezterm.font({ family = "Roboto", weight = "Bold" }),
 		font_size = 12.0,
-		inactive_titlebar_bg = "#353535",
-		active_titlebar_bg = "#2b2042",
-		inactive_titlebar_fg = "#cccccc",
-		active_titlebar_fg = "#ffffff",
-		inactive_titlebar_border_bottom = "#2b2042",
-		active_titlebar_border_bottom = "#2b2042",
-		button_fg = "#cccccc",
-		button_bg = "#2b2042",
-		button_hover_fg = "#ffffff",
-		button_hover_bg = "#3b3052",
+		active_titlebar_bg = "#E1E2E7",
 	}
 end
 
