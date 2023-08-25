@@ -13,9 +13,9 @@ function module.apply_to_config(config)
 			-- The active tab is the one that has focus in the window
 			active_tab = {
 				-- The color of the background area for the tab
-				bg_color = "#18131e",
+				bg_color = "#007CF1",
 				-- The color of the text for the tab
-				fg_color = "#007CF1",
+				fg_color = "#E9E9ED",
 
 				intensity = "Normal",
 				underline = "None",
