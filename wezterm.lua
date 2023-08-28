@@ -1,3 +1,4 @@
+require("gui")
 local font = require("font")
 local color = require("color")
 local key_mapping = require("key_mapping")
