@@ -48,12 +48,12 @@ function module.apply_to_config(config)
 			}),
 		},
 		{
-			key = "|",
+			key = "-",
 			mods = "LEADER|SHIFT",
 			action = wezterm.action.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 		},
 		{
-			key = "-",
+			key = "|",
 			mods = "LEADER",
 			action = wezterm.action.SplitVertical({ domain = "CurrentPaneDomain" }),
 		},
